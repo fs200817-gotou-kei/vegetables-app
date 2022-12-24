@@ -25,6 +25,9 @@ public class Vegetable {
     @Column(name = "NAME")
     private String name;
 
+    @Column(name = "COLOR_ID")
+    private long colorId;
+
     @Column(name = "PRICE")
     private int price;
 

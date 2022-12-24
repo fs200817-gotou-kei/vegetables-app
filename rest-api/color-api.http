@@ -1,0 +1,11 @@
+GET http://localhost:8080/colors/1
+
+###
+
+POST http://localhost:8080/colors/
+Content-Type: application/json
+
+{
+    "nameJa": "赤",
+    "nameEn": "RED"
+}
